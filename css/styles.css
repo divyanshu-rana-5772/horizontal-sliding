@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform-origin: top left;
+  transform: rotate(-90deg) translateX(-100vh);
+  overflow-x: hidden;
+  position: absolute;
+}
+.wrapper-inner {
+  transform-origin: top left;
+  transform: rotate(90deg) translateY(-100vh);
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+}
+
+.slide {
+  min-width: 100vw;
+  height: 100vh;
+}
+
+.one {
+  background-color: lightblue;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.two {
+  background-color: lightcoral;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.three {
+  background-color: lightcyan;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.four {
+  background-color: lightseagreen;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.five {
+  background-color: seagreen;
+  color: #fff;
+  font-size: 2rem;
+}
+.six {
+  background-color: cyan;
+  color: #fff;
+  font-size: 2rem;
+}
+.seven {
+  background-color: coral;
+  color: #fff;
+  font-size: 2rem;
+}
+.eight {
+  background-color: royalblue;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.outer-wrapper {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform-origin: top left;
+  transform: rotate(-90deg) translateX(-100vh);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: absolute;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+
+.slide {
+  width: 100vw;
+  height: 100vh;
+}
+
+.one {
+  background-color: red;
+  font-size: 2rem;
+  color: wheat;
+}
+.two {
+  background-color: blue;
+  font-size: 2rem;
+
+  color: wheat;
+}
+.three {
+  background-color: green;
+  font-size: 2rem;
+
+  color: wheat;
+}
+.four {
+  background-color: yellow;
+  font-size: 2rem;
+
+  color: wheat;
+}
+
+.outer-wrapper {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+} */
